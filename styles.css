@@ -1,0 +1,118 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background: url('images/your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px; /* Adjust height as needed */
+    position: relative;
+}
+
+.main-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-menu a:hover {
+    color: #9ed034;
+}
+
+.nav-menu .active a {
+    font-weight: bold;
+    color: #9ed034;
+}
+
+/* Main area styles */
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ed034;
+    text-align: center;
+    padding: 20px;
+}
+
+.main h1 {
+    font-size: 2em;
+}
+
+.main h2 {
+    font-size: 1.5em;
+}
+
+.main p {
+    font-size: 1em;
+}
+
+/* Partners section styles */
+.partners {
+    text-align: center;
+    padding: 20px;
+}
+
+.partners img {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    margin: 10px;
+    object-fit: cover;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.fab {
+    font-size: 20px;
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.fab:hover {
+    color: #9ed034;
+}
