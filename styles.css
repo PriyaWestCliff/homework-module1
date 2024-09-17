@@ -124,7 +124,7 @@ float: right;
 footer #disclaimer {
     clear:both;
 }
-footer #disclaimer p {
+footer #disclaimer {
     font-size: 0.85em;
     text-align: center;
 }
