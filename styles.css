@@ -11,6 +11,17 @@
         background-size: cover;
     }
 
+    #activities header {
+        background: no-repeat lightgray url(images/runfly.jpg);
+        /*background-size: 1500px;*/
+        background-size: cover;
+    }
+
+    #contact header {
+        background: no-repeat lightgray url(images/Cliff_rock.jpg);
+        background-size: cover;
+    }
+
     .main-header {
         background-color: rgb(255, 255, 255, 0.8);
         width: 700px;
@@ -32,7 +43,7 @@
         font-weight: 400;
     }
 
-    .main-menu ul li {
+    .main-menu li {
         list-style-type: none; 
         display: inline-block;
         float: left;
@@ -57,10 +68,7 @@
     .main-menu ul li.active a {
         color: #fff;
     }
-        main ul li.active a {
-        color : #fff;
-    }
-    
+
     /* Main */
     main ul li.active a {
         color: #fff;
@@ -98,7 +106,9 @@
     section {
         width: 100%;
         background-color: #4288c3;
+        margin-top: 5em;
     }
+
     section #partners {
 
         width: 1200px;
@@ -115,11 +125,11 @@
         border-radius: 50%;
         }
 
-        section #partners .partner img {
+    section #partners .partner img {
         width: 90px;
         height: 90px;
         }
-
+        
     /* Footer styles */
     footer {
         width: 100%;
@@ -172,3 +182,180 @@
     background: #125688;
     color: white;
     }
+
+    /* Activities */
+    table {
+        width: 1000px;
+        margin: 4em auto 0 auto;
+    }
+
+    caption {
+    background: #852B1B;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+    }
+
+    thead {
+    background: #BDE1FF;
+    }
+
+    tbody {
+        background: #EEFFE6;
+        text-align: center;
+    }
+    
+    th, td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle; 
+    border: solid 1px #852B1B;
+    }
+
+    th:first-child {
+    width: 125px;
+    height: 50px;
+    background: #4977D1;
+    color: #fff;
+    }
+
+    td:first-child {
+    font-weight: bold;
+    background: #BDE1FF;
+    }
+   
+
+/* Contact Form */
+form fieldset {
+    border: 3px solid #9ed034;
+    padding: 20px;
+    width: 80%;
+    margin: 20px 0 20px 50px; 
+}
+
+
+form .textbox label,
+form .radios label,
+form .selectmenu label,
+form .commentbox label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form .textbox input[type="text"],
+form .textbox input[type="email"],
+form .commentbox textarea {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4977D1;
+    resize: vertical;
+}
+
+form .radios input[type="radio"] {
+    margin-right: 10px;
+}
+
+form .selectmenu select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4977D1;
+}
+
+.button input[type="button"] {
+    background-color: #4977D1; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button input[type="button"]:hover {
+    background-color: #4169B5;
+}
+
+
+form .button input[type="submit"] {
+    background-color: #4977D1;
+    color: #fff;              
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form .button input[type="submit"]:hover {
+    background-color: #9ed034; 
+}
+
+.contactinfo .phone,
+.contactinfo .email {
+    margin-bottom: 20px; 
+    margin-top: 0;       
+    padding-left: 50px;  
+}
+
+.contactinfo span {
+    margin-right: 5px; 
+}
+
+.contactinfo {
+    margin-top: 0; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+legend {
+    font-weight: bold;               
+    text-transform: uppercase;       
+    color: #4977D1;           
+}
+
+form .radios {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+form .radios label {
+    margin-right: 10px; 
+    font-weight: bold; 
+}
+
+form .radios input[type="radio"] {
+    margin-right: 5px; 
+}
+
+form .selectmenu {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+form .selectmenu label {
+    margin-right: 15px;
+    font-weight: bold; 
+    white-space: nowrap; 
+}
+
+form .selectmenu select {
+    width: 200px; 
+    padding: 10px; 
+    border: 1px solid #4977D1;
+}
+
+form .commentbox textarea {
+    width: 300px; 
+    height: 50px; 
+    padding: 110px; 
+    border: 1px solid #4977D1; 
+    resize: vertical; 
+    margin-bottom: 20px; 
+}
+
