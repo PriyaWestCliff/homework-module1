@@ -72,7 +72,7 @@
 
     .main-menu ul li.active a {
         color: #fff;
-    }
+    }   
 
     /* Main */
     main ul li.active a {
@@ -364,3 +364,56 @@ form .commentbox textarea {
     margin-bottom: 20px; 
 }
 
+
+/* Cliff Form */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 70%; 
+}
+
+/* Cliff card styles */
+.cliff {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.cliff img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cliff h2 {
+    background-color: #8B0000;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+        
+    
