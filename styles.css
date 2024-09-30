@@ -22,6 +22,11 @@
         background-size: cover;
     }
 
+    #cliffs header {
+        background: no-repeat lightgray url(images/forest_cliff.jpg);
+        background-size: cover;
+    }
+
     .main-header {
         background-color: rgb(255, 255, 255, 0.8);
         width: 700px;
