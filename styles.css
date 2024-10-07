@@ -416,4 +416,20 @@ h1 {
     z-index: 1;
 }
         
-    
+/* Time of day clock */
+#timeofday {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    background: linear-gradient(0deg, rgba(251, 215, 139, 1) 0%, rgba(118, 213, 245, 1) 100%);
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Make sure it covers the full width */
+    margin: 0 auto; /* Ensure it's centered with no extra space */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    position: relative;
+}
+
+#clock {
+    font-size: 24px;
+    color: #125688;
+}
